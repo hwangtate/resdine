@@ -5,7 +5,7 @@ function Nav() {
 
   return (
       <header>
-        <nav>
+        <nav id='navbar'>
           <ul>
             <Link to={'/'} style={{ padding: 0 }}>
               <img src="img/logo.png" id="logo" alt="로고" />

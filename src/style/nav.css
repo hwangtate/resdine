@@ -53,8 +53,7 @@ li:hover ul {
   display: block; /* 호버 시 하위 ul 표시 */
   position: absolute; /* 포지션을 absolute로 변경하여 위로 떠올라오도록 함 */
   background-color: #fff; /* 하위 ul 배경색 */
-  border-radius: 10px;
-  z-index: 1; 
+  z-index: 1; /* 다른 항목 위에 나타나도록 설정 */
 }
 
 /* 하위 ul 스타일링 */
@@ -87,8 +86,19 @@ li ul {
 
 @media screen and (max-width: 1100px) {
 
-  nav {
-    display: none;
+  ul {
+    left: 50px;
   }
 
+}
+
+.topnav {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+
+  #navbar{
+    display: none;
+  }
 }
