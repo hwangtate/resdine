@@ -133,7 +133,7 @@
   }
 
   .contain1 {
-    left: 20px;
+    left: 40px;
     flex-direction: column;
     margin: 0;
     top: 200px;
@@ -145,12 +145,12 @@
   }
 
   #title1{
-    left: 20px;
+    left: 40px;
     font-size: 36px;
   }
 
   .p{
-    left: 20px;
+    left: 40px;
     font-size: 16px;
   }
 }

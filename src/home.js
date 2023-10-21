@@ -23,12 +23,12 @@ function Home() {
         <Link to={'/'} className="contain2">
           <img src="img/Document.png" className="icon" alt="아이콘 2" />
           <p className="text">컨설턴트 커리어 & 소개 </p>
-          <p className="subtext">외식업으로 이미 성공한<br />사업가에게 컨설팅을 받으세요.</p>
+          <p className="subtext">요식업 및 외식업으로 이미 성공한<br />사업가에게 컨설팅을 받으세요.</p>
         </Link>
         <Link to={'/'} className="contain2">
           <img src="img/Analyze.png" className="icon" alt="아이콘 3" />
           <p className="text">전략 컨설팅 & 창업 컨설팅</p>
-          <p className="subtext">성공한 외식업 사업가의<br />노하우와 비밀을 받아가세요.</p>
+          <p className="subtext">성공한 요식업 및 외식업<br />사업가의 노하우와 비밀을 받아가세요.</p>
         </Link>
       </div>
     </main>
