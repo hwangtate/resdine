@@ -104,6 +104,7 @@
 @media screen and (max-width: 1440px) {
   .contain1 {
     margin-left: 150px;
+    margin-right: 50px;
   }
 
   .contain2 {
@@ -167,7 +168,7 @@
 @media screen and (max-width: 690px) {
 
   .contain1 {
-    top: 170px;
+    top: 150px;
   }
 
   #mobile-title1{
@@ -184,8 +185,4 @@
   .p{
     font-size: 16px;
   }
-}
-
-@media screen and (max-width: 500px) {
-  
 }

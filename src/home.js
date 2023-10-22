@@ -21,18 +21,18 @@ function Home() {
       </p>
       <div className="contain1">
         <Link to={'/about'} className="contain2">
-          <img src="img/Brief.png" className="icon" alt="아이콘 1" />
+          <img src="/img/Brief.png" className="icon" alt="아이콘 1" />
           <p className="text">컨설팅 없이 매출 올리기</p>
           <p className="subtext">당신에게 컨설팅이<br />필요하지 않을 수도 있습니다.</p>
         </Link>
-        <Link to={'/'} className="contain2">
-          <img src="img/Document.png" className="icon" alt="아이콘 2" />
+        <Link to={'/consultants/leejaehoon'} className="contain2">
+          <img src="/img/Document.png" className="icon" alt="아이콘 2" />
           <p className="text">컨설턴트 커리어 & 소개 </p>
           <p className="subtext">이미 성공한 사업가에게<br />컨설팅을 받으세요.</p>
         </Link>
         <Link to={'/'} className="contain2">
-          <img src="img/Analyze.png" className="icon" alt="아이콘 3" />
-          <p className="text">전략 컨설팅 & 창업 컨설팅</p>
+          <img src="/img/Analyze.png" className="icon" alt="아이콘 3" />
+          <p className="text">전략 & 창업 컨설팅</p>
           <p className="subtext">성공한 사업가의<br />노하우와 비밀을 받아가세요.</p>
         </Link>
       </div>

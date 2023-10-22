@@ -1,15 +1,10 @@
 import './style/about.css'
+import Topnav from './topnav';
 
 function About() {
   return (
     <main>
-      <div id="background3">
-        <h1 id="title3">레스다인 소개</h1>
-        <h2 id="subtitle3">ResDine은 Restaurant Dine Counsulting 의 줄임말입니다.</h2>
-      </div>
-      <div id="linebox3">
-        레스다인 소개
-      </div>
+      <Topnav/>
       <div>
         <p id="text3">
           레스다인은 요식업 분야(외식업)에서의 탁월한 경험과 노하우를 통해 여러분들을 성공으로 안내하는 회사입니다.

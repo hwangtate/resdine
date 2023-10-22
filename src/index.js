@@ -6,6 +6,7 @@ import Nav from './nav';
 import Footer from './footer';
 import Home from './home'
 import About from './about'
+import Consultants from './consultants';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -17,6 +18,7 @@ root.render(
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/about' element={<About />} />
+        <Route path='/consultants/:consultantName' element={<Consultants/>} />
       </Routes>
       <Footer />
     </BrowserRouter>
