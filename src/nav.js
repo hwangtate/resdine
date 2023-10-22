@@ -77,7 +77,11 @@ function Nav() {
                   <hr></hr>
                 </Link>
                 <Link to={'/'} className="menu-item" onClick={closeMenu}>
-                  - 컨설팅 없이 매출 올리기
+                  - 컨설팅 후기
+                  <hr></hr>
+                </Link>
+                <Link to={'/'} className="menu-item" onClick={closeMenu}>
+                  - 컨설턴트의 조언
                   <hr></hr>
                 </Link>
                 <Link to={'/'} className="menu-item" onClick={closeMenu}>
