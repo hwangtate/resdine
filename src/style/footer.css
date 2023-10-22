@@ -1,6 +1,6 @@
 /*푸터부분*/
 footer{
-  height: 220px;
+  height: 255px;
   margin-top: 50px;
   background-color: #f1f1f1;
 }
@@ -61,10 +61,12 @@ footer{
 @media screen and (max-width: 1000px) {
 
   #footerlogo{
-    margin-left: 17px;
+    margin-left: 37px;
   }
 
   #footertext{
-    margin-left: 20px;
+    margin-left: 40px;
   }
 }
+
+
