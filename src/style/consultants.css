@@ -79,16 +79,18 @@ hr{
   text-decoration: none;
   margin: 10px 0px;
   margin-right: 60px;
+  transition: color 0.3s ease;
 }
 
 .consult-nav-consult:hover{
   color: #0061E0;
-  border-bottom: 2px solid #0061E0;
+  
 }
 
 .selected-consultant {
   color: #0061E0; /* 또는 원하는 색상 */
-  border-bottom: 2px solid #0061E0;
+  transition: color 0.3s ease;
+  
 }
 
 
@@ -177,7 +179,7 @@ hr{
 
   .profile{
     margin: 0 auto;
-    width: 150px;
+    width: 170px;
     height: 200px;
   }
   

@@ -20,38 +20,28 @@ function Nav() {
             </Link>
             <li>
               <Link to={'/about'}>레스다인 소개</Link>
-              <ul>
+              {/* <ul>
                 <li><Link to={'/about'} >레스다인 소개</Link></li>
                 <li><Link to={'/consultants/leejaehoon'}>컨설턴트 소개</Link></li>
-              </ul>
+              </ul> */}
+            </li>
+            <li>
+              <Link to={'/'}>레스다인 칼럼</Link>
+            </li>
+            <li>
+              <Link to={'/consultants/ka'}>컨설턴트 소개</Link>
+            </li>
+            <li>
+              <Link to={'/consulting'}>컨설팅 안내</Link>
             </li>
             <li>
               <Link to={'/'}>상담신청</Link>
-              <ul>
-                <li><Link to={'/'}>전략 컨설팅</Link></li>
-                <li><Link to={'/'}>창업 컨설팅</Link></li>
-              </ul>
-            </li>
-            <li>
-              <Link to={'/'}>컨설팅 후기</Link>
-              <ul>
-                <li><Link to={'/'}>컨설팅 후기</Link></li>
-                <li><Link to={'/'}>컨설턴트의 조언</Link></li>
-              </ul>
             </li>
             <li>
               <Link to={'/'}>요금</Link>
-              <ul>
-                <li><Link to={'/'}>전략 컨설팅</Link></li>
-                <li><Link to={'/'}>창업 컨설팅</Link></li>
-              </ul>
             </li>
             <li>
               <Link to={'/'}>문의</Link>
-              <ul>
-                <li><Link to={'/'}>FAQ</Link></li>
-                <li><Link to={'/'}>문의하기</Link></li>
-              </ul>
             </li>
           </ul>
         </nav>
@@ -72,28 +62,20 @@ function Nav() {
                   - 레스다인 소개
                   <hr></hr>
                 </Link>
-                <Link to={'/consultants/leejaehoon'} className="menu-item" onClick={closeMenu}>
+                <Link to={'/'} className="menu-item" onClick={closeMenu}>
+                  - 레스다인 칼럼
+                  <hr></hr>
+                </Link>
+                <Link to={'/consultants/ka'} className="menu-item" onClick={closeMenu}>
                   - 컨설턴트 소개
                   <hr></hr>
                 </Link>
-                <Link to={'/'} className="menu-item" onClick={closeMenu}>
-                  - 컨설팅 후기
+                <Link to={'/consulting'} className="menu-item" onClick={closeMenu}>
+                  - 컨설팅 안내
                   <hr></hr>
                 </Link>
                 <Link to={'/'} className="menu-item" onClick={closeMenu}>
-                  - 컨설턴트의 조언
-                  <hr></hr>
-                </Link>
-                <Link to={'/'} className="menu-item" onClick={closeMenu}>
-                  - 전략 컨설팅 
-                  <hr></hr>
-                </Link>
-                <Link to={'/'} className="menu-item" onClick={closeMenu}>
-                  - 창업 컨설팅
-                  <hr></hr>
-                </Link>
-                <Link to={'/'} className="menu-item" onClick={closeMenu}>
-                  - 상담
+                  - 상담신청
                   <hr></hr>
                 </Link>
                 <Link to={'/'} className="menu-item" onClick={closeMenu}>

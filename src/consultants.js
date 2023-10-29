@@ -3,33 +3,28 @@ import {Link} from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import Topnav from './topnav';
 import Example from './consultimg/example.jpg'
+import Example1 from './consultimg/example1.jpg'
 
 const consultantsData = {
   
-  "leejaehoon": {
+  "ka": {
     profile: Example,
-    name: "이재훈",
+    name: "카리나",
     job: "요식업 및 외식업",
-    introduce: `안녕하세요 이재훈 입니다.안녕하세요 이재훈 입니다.안녕하세요 이재훈 입니다.안녕하세요 이재훈 입니다.
-
-    안녕하세요 이재훈 입니다.안녕하세요 이재훈 입니다.안녕하세요 이재훈 입니다.안녕하세요 이재훈 입니다.
-
-    안녕하세요 이재훈 입니다.안녕하세요 이재훈 입니다.안녕하세요 이재훈 입니다.안녕하세요 이재훈 입니다.
-
-    안녕하세요 이재훈 입니다.안녕하세요 이재훈 입니다.안녕하세요 이재훈 입니다.안녕하세요 이재훈 입니다.
+    introduce: `안녕하세요 카리나 입니다.
     `
   },
-  "hwang": {
-    profile: Example,
-    name: "황태영",
+  "jang": {
+    profile: Example1,
+    name: "장원영",
     job: "카페",
-    introduce: "안녕하세요 황태영 입니다. 안녕하세요 황태영 입니다. 안녕하세요 황태영 입니다."
+    introduce:'안녕하세요 장원영 입니다.'
   },
   "leeayoung": {
     profile: Example,
-    name: "이아영",
+    name: "아이브",
     job: "고깃집",
-    introduce: "안녕하세요 이아영 입니다. 안녕하세요 이아영 입니다. 안녕하세요 이아영 입니다."
+    introduce: "안녕하세요 아이브 입니다."
   }
 
 };
@@ -59,9 +54,8 @@ function Consultants() {
       <Topnav/>
 
       <div id='consult-nav'>
-        <Link to={'/consultants/leejaehoon'} className={getLinkClassName('leejaehoon')}>이재훈 컨설턴트</Link>
-        <Link to={'/consultants/hwang'} className={getLinkClassName('hwang')}>장원영 컨설턴트</Link>
-        <Link to={'/consultants/leeayoung'} className={getLinkClassName('leeayoung')}>아이브 컨설턴트</Link>
+        <Link to={'/consultants/ka'} className={getLinkClassName('ka')}>카리나 컨설턴트</Link>
+        <Link to={'/consultants/jang'} className={getLinkClassName('jang')}>장원영 컨설턴트</Link>
       </div>
 
       <div id='consult-contain'>

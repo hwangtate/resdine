@@ -32,7 +32,7 @@ function Home() {
         </Link>
         <Link to={'/'} className="contain2">
           <img src="/img/Analyze.png" className="icon" alt="아이콘 3" />
-          <p className="text">전략 & 창업 컨설팅</p>
+          <p className="text">전략 컨설팅 안내</p>
           <p className="subtext">성공한 사업가의<br />노하우와 비밀을 받아가세요.</p>
         </Link>
       </div>

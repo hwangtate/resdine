@@ -1,9 +1,25 @@
 /*본문*/
 #text3{
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   padding-left: 250px;
-  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #000000;
+
+}
+
+.strongtext{
+  font-size: 38px;
+  font-weight: 600;
+  color: #000000;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.abouttext{
+  color: #0061E0;
+  padding: 0;
+  width: 185px;
 }
 
 @media screen and (max-width: 1440px) {
@@ -23,6 +39,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+
+  .strongtext{
+    font-size: 30px;
+  }
 
   #text3{
     padding-left: 40px;
