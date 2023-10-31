@@ -9,18 +9,17 @@ function About() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1500,  // 애니메이션 지속 시간
+      duration: 1000,  // 애니메이션 지속 시간
       // 필요한 경우 여기에 더 많은 설정을 추가할 수 있습니다.
     });
   }, []);
-
 
   return (
     <main>
       < Topnav/>
       <div>
-        <p id="text3">
-          <h1 className='strongtext'>레스다인 컨설팅</h1>
+        <p id="text3" data-aos="fade-up">
+          <h1 className='strongtext' >레스다인 컨설팅</h1>
           안녕하세요, 저는 레스다인 컨설팅 회사 대표 황태영입니다.
           <br/><br/><br/>
           장사를 시작하고 나면 정말 많은 문제들을 맞닥드리게 됩니다.
@@ -47,7 +46,7 @@ function About() {
           <br/><br/><br/>
           저희 레스다인의 칼럼만 읽고도 고객님의 가게가 더 나아질 수 있으니 하단의 링크를 통해 읽어보시길 바랍니다.
           <br/><br/><br/>
-          <Link to={'/'} className='abouttext'>컨설팅 없이 매출 올리기</Link>
+          <Link to={'/'} className='abouttext'>[컨설팅 없이 매출 올리기]</Link>
 
           <h1 className='strongtext'>왜 레스다인 컨설팅인가?</h1>
           저희 레스다인 컨설팅의 컨설턴트들은 이미 장사로 성공한 사람들입니다.
@@ -69,7 +68,26 @@ function About() {
           <br/><br/><br/>
           하단의 링크를 통해 저희 회사의 최고의 컨설턴트들을 확인해보세요.
           <br/><br/><br/>
-          <Link to={'/consultants/ka'} className='abouttext'>컨설턴트 커리어 및 소개</Link>
+          <Link to={'/consultants/ka'} className='abouttext'>[컨설턴트 커리어 및 소개]</Link>
+
+          <h1 className='strongtext'>우리의 서비스</h1>
+          레스다인 컨설팅에서는 고객님의 사업에 꼭 맞는 맞춤형 컨설팅 서비스를 제공해 드립니다.
+          <br/><br/><br/>
+          그 중 주요 서비스로는 다음과 같이 두 가지를 중점으로 진행하고 있습니다.
+          <br/><br/><br/>
+          <Link to={'/consulting'} className='abouttext'>[전략 컨설팅]</Link>
+          <br/><br/>
+          레스다인의 컨설턴트가 고객님의 가게로 찾아가 문제점을 파악하고 해결합니다.
+          <br/><br/><br/>
+          1년 이상 운영된 가게에 적합합니다.
+          <br/><br/><br/>
+          <Link to={'/consulting'} className='abouttext'>[완벽 컨설팅]</Link>
+          <br/><br/>
+          레스다인의 컨설턴트가 고객님의 가게로 찾아가 문제점을 파악하고 해결합니다.
+          <br/><br/><br/>
+          확실한 성과가 나올때까지 맞춤형 컨설팅 서비스를 제공합니다.
+          <br/><br/><br/>
+          운영한 지 얼마 되지 않은 가게나 개선점이 많은 가게에 적합합니다.
         </p>
       </div>
     </main>

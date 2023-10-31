@@ -38,9 +38,6 @@ function Nav() {
               <Link to={'/'}>상담신청</Link>
             </li>
             <li>
-              <Link to={'/'}>요금</Link>
-            </li>
-            <li>
               <Link to={'/'}>문의</Link>
             </li>
           </ul>
@@ -76,10 +73,6 @@ function Nav() {
                 </Link>
                 <Link to={'/'} className="menu-item" onClick={closeMenu}>
                   - 상담신청
-                  <hr></hr>
-                </Link>
-                <Link to={'/'} className="menu-item" onClick={closeMenu}>
-                  - 요금
                   <hr></hr>
                 </Link>
                 <Link to={'/'} className="menu-item" onClick={closeMenu}>
