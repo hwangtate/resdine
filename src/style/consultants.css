@@ -137,10 +137,6 @@ hr{
     font-weight: 600;
     color: #0061E0;
   }
-
-  .consult-nav-consult{
-    margin-right: 30px;
-  }
 }
 
 @media screen and (max-width: 550px) {
@@ -184,10 +180,6 @@ hr{
     font-size: 14px;
     font-weight: 600;
     color: #0061E0;
-  }
-
-  .consult-nav-consult{
-    margin-right: 30px;
   }
 
   #consult-nav{

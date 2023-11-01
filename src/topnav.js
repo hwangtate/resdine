@@ -32,6 +32,14 @@ function Topnav() {
     title = 'Consulting';
     subtitle = '매출이 오르지 않으면 100% 환불해드립니다.';
     backgroundId = 'background5';
+  } else if (currentPath.startsWith('/column')) {
+    title = 'Column';
+    subtitle = (
+      <>
+        레스다인의 칼럼만으로도 매출 향상이 가능합니다.
+      </>
+      );
+    backgroundId = 'background6';
   } 
 
   return(

@@ -26,7 +26,7 @@ function Nav() {
               </ul> */}
             </li>
             <li>
-              <Link to={'/'}>레스다인 칼럼</Link>
+              <Link to={'/column'}>레스다인 칼럼</Link>
             </li>
             <li>
               <Link to={'/consultants/ka'}>컨설턴트 소개</Link>
@@ -59,7 +59,7 @@ function Nav() {
                   - 레스다인 소개
                   <hr></hr>
                 </Link>
-                <Link to={'/'} className="menu-item" onClick={closeMenu}>
+                <Link to={'/column'} className="menu-item" onClick={closeMenu}>
                   - 레스다인 칼럼
                   <hr></hr>
                 </Link>
