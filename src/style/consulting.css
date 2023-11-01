@@ -6,48 +6,53 @@
 }
 
 .consulting-box{
-  width: 350px;
-  height: 600px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03), 0 6px 20px rgba(0, 0, 0, 0.03), 0 -3px 20px rgba(0, 0, 0, 0.03);
-
+  width: 450px;
+  height: auto;
+  border-top: 2px solid #0061E0;
 }
 
+.consulting-box1{
+  width: 450px;
+  height: auto;
+  border-top: 2px solid #0061E0;
+}
 
 .consulting-title{
   margin-top: 25px;
-  margin-left: 30px;
-  background: linear-gradient(to right, #0061E0, #0048A3);
-  -webkit-background-clip: text;
-  color: transparent;
-  font-size: 28px;
-  font-weight: 700;
+  text-align: center;
+  color: #000;
+  font-size: 32px;
+  font-weight: 800;
 }
 
 .consulting-price{
   font-size: 34px;
-  background: linear-gradient(to right, #0061E0, #0048A3);
-  -webkit-background-clip: text;
-  color: transparent;
-  margin-left: 30px;
-  margin-bottom: 30px;
+  font-weight: 800;
+  color: #000;
+  text-align: center;
+  margin-bottom: 90px;
 }
 
 .consulting-text{
-  margin-left: 30px;
+  text-align: center;
   color: black;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .consulting-title-text{
-  margin-left: 30px;
+  text-align: center;
   margin-top: 10px;
-  margin-bottom: 30px;
-  color: black;
-  font-size: 14px;
-  font-weight: 500;
+  margin-bottom: 60px;
+  color: #0061E0;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.consulting-step{
+  font-size: 18px;
+  font-weight: 700;
+  color: #0061e0;
 }
 
 .consulting-butt{
@@ -57,10 +62,31 @@
   border-radius: 999px;
   display: block;
   margin: 0 auto;
-  background: linear-gradient(to right, #0061E0, #0048A3);
+  background-color: #0061E0;
   color: #fff;
   font-size: 20px;
   font-weight: 600;
-  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
+.consulting-icon{
+  width: auto;
+  height: 43px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.consulting-icon-1{
+  width: auto;
+  height: 13px;
+  margin: 0 auto;
+}
+
+#last-size{
+  margin-bottom: 30px;
+}
+
+.consulting-strong{
+  font-size: 18px;
+  margin-left: 5px;
+}

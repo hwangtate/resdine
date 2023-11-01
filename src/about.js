@@ -1,25 +1,15 @@
 import './style/about.css'
 import Topnav from './topnav';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import {Link} from 'react-router-dom';
-import React, { useEffect } from 'react';
 
 function About() {
-
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,  // 애니메이션 지속 시간
-      // 필요한 경우 여기에 더 많은 설정을 추가할 수 있습니다.
-    });
-  }, []);
 
   return (
     <main>
       < Topnav/>
       <div>
-        <p id="text3" data-aos="fade-up">
-          <h1 className='strongtext' >레스다인 컨설팅</h1>
+        <p id="text3">
+          <h1 className='strongtext' id='strongtextsize'>레스다인 컨설팅</h1>
           안녕하세요, 저는 레스다인 컨설팅 회사 대표 황태영입니다.
           <br/><br/><br/>
           장사를 시작하고 나면 정말 많은 문제들을 맞닥드리게 됩니다.
@@ -75,13 +65,13 @@ function About() {
           <br/><br/><br/>
           그 중 주요 서비스로는 다음과 같이 두 가지를 중점으로 진행하고 있습니다.
           <br/><br/><br/>
-          <Link to={'/consulting'} className='abouttext'>[전략 컨설팅]</Link>
+          <Link to={'/consulting'} className='abouttext'>[레스다인 컨설팅]</Link>
           <br/><br/>
           레스다인의 컨설턴트가 고객님의 가게로 찾아가 문제점을 파악하고 해결합니다.
           <br/><br/><br/>
           1년 이상 운영된 가게에 적합합니다.
           <br/><br/><br/>
-          <Link to={'/consulting'} className='abouttext'>[완벽 컨설팅]</Link>
+          <Link to={'/consulting'} className='abouttext'>[전략 컨설팅]</Link>
           <br/><br/>
           레스다인의 컨설턴트가 고객님의 가게로 찾아가 문제점을 파악하고 해결합니다.
           <br/><br/><br/>

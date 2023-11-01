@@ -3,7 +3,7 @@ import './style/footer.css'
 function Footer (){
   return (
     <footer>
-      <p><img src='/img/logo.png' id="footerlogo" alt="푸터 로고" /></p>
+      <p><img src='/img/logo1.png' id="footerlogo" alt="푸터 로고" /></p>
       <p id="footertext">
         업체명 : 레스다인 컨설팅 주소 : 세종특별자치시 달빛1로 206<br />
         사업자등록번호 : 000000000 개인정보책임자 : 황태영<br />
