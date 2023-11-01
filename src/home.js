@@ -1,7 +1,18 @@
 import './style/home.css'
 import {Link} from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function Home() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,  // 애니메이션 지속 시간
+      // 필요한 경우 여기에 더 많은 설정을 추가할 수 있습니다.
+    });
+  }, []);
+
   return (
     <main id="main1">
       <p className="p">
@@ -28,7 +39,7 @@ function Home() {
         <Link to={'/consultants/ka'} className="contain2">
           <img src="/img/Document.png" className="icon" alt="아이콘 2" />
           <p className="text">컨설턴트 커리어 & 소개 </p>
-          <p className="subtext">이미 성공한 사업가에게<br />컨설팅을 받으세요.</p>
+          <p className="subtext">먼저 성공한 사업가에게<br />컨설팅을 받으세요.</p>
         </Link>
         <Link to={'/'} className="contain2">
           <img src="/img/Analyze.png" className="icon" alt="아이콘 3" />

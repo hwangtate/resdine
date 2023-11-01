@@ -52,14 +52,10 @@ hr{
 #consult-nav{
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  background-color: #dedede;
-  background-image: url("../../public/img/background.jpg");
-  background-position: left;
-  background-repeat: no-repeat;
-  padding-left: 250px;
-  padding-right: 40px;
-  height: 44px;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  height: auto;
+  margin-top: 50px;
   width: auto;
 }
 
@@ -72,32 +68,23 @@ hr{
 }
 
 .consult-nav-consult{
-  color: #fff;
-  padding: 0px;
+  color: #000;
+  border-bottom: 1px solid transparent;
+  padding: 0;
   font-size: 16px;
-  font-weight: 500;
-  text-decoration: none;
-  margin: 10px 0px;
-  margin-right: 60px;
-  transition: color 0.3s ease;
-}
-
-.consult-nav-consult:hover{
-  color: #0061E0;
-  
+  font-weight: 700;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
 .selected-consultant {
   color: #0061E0; /* 또는 원하는 색상 */
-  transition: color 0.3s ease;
-  
+  border-bottom: 1px solid #0061E0;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
 
 @media screen and (max-width: 1440px) {
-  #consult-nav{
-    padding-left: 150px;
-  }
+
   .consult-contain2{
     margin-left: 150px;
     margin-right: 150px;
@@ -106,9 +93,7 @@ hr{
 }
 
 @media screen and (max-width: 1100px) {
-  #consult-nav{
-    padding-left: 100px;
-  }
+
   .consult-contain2{
     margin-left: 100px;
     margin-right: 100px;
@@ -117,9 +102,7 @@ hr{
 }
 
 @media screen and (max-width: 1000px) {
-  #consult-nav{
-    padding-left: 40px;
-  }
+
   .consult-contain2{
     margin-left: 40px;
     margin-right: 40px;
@@ -128,9 +111,6 @@ hr{
 
 @media screen and (max-width: 800px) {
 
-  #consult-nav{
-    padding-left: 40px;
-  }
 
   .profile{
     width: 150px;

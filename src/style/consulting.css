@@ -6,15 +6,15 @@
 }
 
 .consulting-box{
-  width: 450px;
+  width: auto;
   height: auto;
-  border-top: 2px solid #0061E0;
+  border-top: 1px solid #0061E0;
 }
 
 .consulting-box1{
-  width: 450px;
+  width: auto;
   height: auto;
-  border-top: 2px solid #0061E0;
+  border-top: 1px solid #0061E0;
 }
 
 .consulting-title{
@@ -42,7 +42,7 @@
 
 .consulting-title-text{
   text-align: center;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 60px;
   color: #0061E0;
   font-size: 12px;
@@ -89,4 +89,26 @@
 .consulting-strong{
   font-size: 18px;
   margin-left: 5px;
+}
+
+@media screen and (max-width: 720px) {
+
+  #consulting-div{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin-top: 50px;
+  }  
+
+  /* .consulting-box{
+    width: auto;
+    height: auto;
+    border-top: 1px solid #0061E0;
+  }
+  
+  .consulting-box1{
+    width: auto;
+    height: auto;
+    border-top: 1px solid #0061E0;
+  } */
 }

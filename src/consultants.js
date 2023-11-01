@@ -31,11 +31,12 @@ const consultantsData = {
 
 function Consultants() {
 
-  // 현재 URL의 파라미터에서 consultantName을 추출합니다.
   const { consultantName } = useParams();
-
-  // URL 파라미터에 따라 해당 컨설턴트 정보를 가져옵니다.
   const consultant = consultantsData[consultantName];
+
+  const handleLinkClick = () => {
+    localStorage.setItem('preventScroll', 'true');
+  };
 
   const getLinkClassName = (targetConsultantName) => {
     // 기본 클래스
@@ -54,8 +55,8 @@ function Consultants() {
       <Topnav/>
 
       <div id='consult-nav'>
-        <Link to={'/consultants/ka'} className={getLinkClassName('ka')}>카리나 컨설턴트</Link>
-        <Link to={'/consultants/jang'} className={getLinkClassName('jang')}>장원영 컨설턴트</Link>
+        <Link to={'/consultants/ka'} className={getLinkClassName('ka')} onClick={handleLinkClick}>카리나 컨설턴트</Link>
+        <Link to={'/consultants/jang'} className={getLinkClassName('jang')} onClick={handleLinkClick}>장원영 컨설턴트</Link>
       </div>
 
       <div id='consult-contain'>

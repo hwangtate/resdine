@@ -3,6 +3,7 @@ import Topnav from './topnav';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import React, { useEffect } from 'react';
+import {Link} from 'react-router-dom';
 
 function Consulting(){
   useEffect(() => {
@@ -24,7 +25,7 @@ function Consulting(){
           <p className='consulting-text' data-aos="fade-up">
             <p className='consulting-step'>STEP 01</p>
             <img src='/img/head.png' alt='Head Icon' className='consulting-icon' /><br/>
-            "상담신청"을 클릭한 후 안내에 따라 상담을 신청합니다.
+            "상담신청"을 클릭한 후<br/>안내에 따라 상담을 신청합니다.
           </p>
 
           <br/><br/><br/>
@@ -52,7 +53,7 @@ function Consulting(){
           </p>
           
           <br/><br/><br/>
-          <p className='consulting-text data-aos="fade-up"'>
+          <p className='consulting-text' data-aos="fade-up">
           <img src='/img/arrow.png' alt='Arrow Icon' className='consulting-icon-1'/>
           </p>
           <br/><br/><br/>
@@ -76,7 +77,7 @@ function Consulting(){
           </p>
           <br/><br/>
           
-          <button className='consulting-butt' data-aos="fade-up">상담신청</button>
+          <Link to={'/'}><button className='consulting-butt' data-aos="fade-up">상담신청</button></Link>
         </div>
 
         <div className='consulting-box1' data-aos="fade-up">
@@ -86,7 +87,7 @@ function Consulting(){
 
           <p className='consulting-text' data-aos="fade-up">
             <p className='consulting-step'>STEP 01</p>
-            <img src='/img/head.png' alt='Head Icon' className='consulting-icon' /><br/>
+            <img src='/img/favicon.ico' alt='Head Icon' className='consulting-icon' /><br/>
             레스다인 컨설팅과 동일하게 진행합니다.
           </p>
 
@@ -98,7 +99,7 @@ function Consulting(){
 
           <p className='consulting-text' data-aos="fade-up">
             <p className='consulting-step'>STEP 02</p>
-            <img src='/img/head.png' alt='Head Icon' className='consulting-icon' /><br/>
+            <img src='/img/person.png' alt='Head Icon' className='consulting-icon' /><br/>
             3개월 후 매니저와 비대면 상담을 진행합니다.
           </p>
 
@@ -110,7 +111,7 @@ function Consulting(){
 
           <p className='consulting-text' data-aos="fade-up">
             <p className='consulting-step'>STEP 03</p>
-            <img src='/img/head.png' alt='Head Icon' className='consulting-icon' /><br/>
+            <img src='/img/date.png' alt='Head Icon' className='consulting-icon' /><br/>
             컨설턴트와 일정을 다시 조율합니다.
           </p>
 
@@ -122,7 +123,7 @@ function Consulting(){
 
           <p className='consulting-text' data-aos="fade-up">
             <p className='consulting-step'>STEP 04</p>
-            <img src='/img/head.png' alt='Head Icon' className='consulting-icon' /><br/>
+            <img src='/img/contact.png' alt='Head Icon' className='consulting-icon' /><br/>
             약속된 일정에 컨설턴트가 컨설팅을 진행합니다.
           </p>
 
@@ -146,7 +147,7 @@ function Consulting(){
 
           <p className='consulting-text' data-aos="fade-up">
             <p className='consulting-step'>STEP 06</p>
-            <img src='/img/head.png' alt='Head Icon' className='consulting-icon' /><br/>
+            <img src='/img/date.png' alt='Head Icon' className='consulting-icon' /><br/>
             컨설턴트와 일정을 다시 조율합니다.
           </p>
 
@@ -158,12 +159,12 @@ function Consulting(){
 
           <p className='consulting-text' id='last-size' data-aos="fade-up">
             <p className='consulting-step'>STEP 07</p>
-            <img src='/img/head.png' alt='Head Icon' className='consulting-icon' /><br/>
+            <img src='/img/contact.png' alt='Head Icon' className='consulting-icon' /><br/>
             약속된 일정에 컨설턴트가 컨설팅을 진행합니다.
           </p>
           <br/><br/>
-          
-          <button className='consulting-butt' data-aos="fade-up">상담신청</button>
+
+          <Link to={'/'}><button className='consulting-butt' data-aos="fade-up">상담신청</button></Link>
         </div>
       </div>
     </main>
