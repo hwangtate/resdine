@@ -19,7 +19,7 @@ function About() {
       < Topnav/>
       <div>
         <p id="text3">
-          <div data-aos="fade-up">
+          <div>
             <h1 className='strongtext'>레스다인 컨설팅</h1>
             <p>안녕하세요, 저는 레스다인 컨설팅 회사 대표 황태영입니다.</p>
             <br/><br/><br/>

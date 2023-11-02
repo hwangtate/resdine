@@ -24,7 +24,7 @@ function Consulting(){
 
           <p className='consulting-text' data-aos="fade-up">
             <p className='consulting-step'>STEP 01</p>
-            <img src='/img/head.png' alt='Head Icon' className='consulting-icon' /><br/>
+            <img src='/img/head.png' alt='Icon' className='consulting-icon' /><br/>
             "상담신청"을 클릭한 후<br/>안내에 따라 상담을 신청합니다.
           </p>
 
@@ -36,7 +36,7 @@ function Consulting(){
 
           <p className='consulting-text' data-aos="fade-up">
             <p className='consulting-step'>STEP 02</p>
-            <img src='/img/chat.png' alt='Head Icon' className='consulting-icon' /><br/>
+            <img src='/img/chat.png' alt='Icon' className='consulting-icon' /><br/>
             매니저와 1차 비대면 상담을 진행합니다.
           </p>
           
@@ -48,7 +48,7 @@ function Consulting(){
 
           <p className='consulting-text' data-aos="fade-up">
             <p className='consulting-step'>STEP 03</p>
-            <img src='/img/person.png' alt='Head Icon' className='consulting-icon' /><br/>
+            <img src='/img/person.png' alt='Icon' className='consulting-icon' /><br/>
             매니저와 2차 대면 상담을 진행합니다.
           </p>
           
@@ -60,7 +60,7 @@ function Consulting(){
 
           <p className='consulting-text' data-aos="fade-up">
             <p className='consulting-step'>STEP 04</p>
-            <img src='/img/date.png' alt='Head Icon' className='consulting-icon' /><br/>
+            <img src='/img/date.png' alt='Icon' className='consulting-icon' /><br/>
             결제를 완료하고 컨설턴트와 일정을 조율합니다.
           </p>
           
@@ -72,12 +72,12 @@ function Consulting(){
 
           <p className='consulting-text' id='last-size' data-aos="fade-up">
             <p className='consulting-step'>STEP 05</p>
-            <img src='/img/contact.png' alt='Head Icon' className='consulting-icon' /><br/>
+            <img src='/img/contact.png' alt='Icon' className='consulting-icon' /><br/>
             약속된 일정에 컨설턴트가 컨설팅을 진행합니다.
           </p>
           <br/><br/>
           
-          <Link to={'/'}><button className='consulting-butt' data-aos="fade-up">상담신청</button></Link>
+          <Link to={'/request'}><button className='consulting-butt' data-aos="fade-up">상담신청</button></Link>
         </div>
 
         <div className='consulting-box1' data-aos="fade-up">
@@ -87,7 +87,7 @@ function Consulting(){
 
           <p className='consulting-text' data-aos="fade-up">
             <p className='consulting-step'>STEP 01</p>
-            <img src='/img/favicon.ico' alt='Head Icon' className='consulting-icon' /><br/>
+            <img src='/img/favicon.ico' alt='Icon' className='consulting-icon' /><br/>
             레스다인 컨설팅과 동일하게 진행합니다.
           </p>
 
@@ -99,7 +99,7 @@ function Consulting(){
 
           <p className='consulting-text' data-aos="fade-up">
             <p className='consulting-step'>STEP 02</p>
-            <img src='/img/person.png' alt='Head Icon' className='consulting-icon' /><br/>
+            <img src='/img/person.png' alt='Icon' className='consulting-icon' /><br/>
             3개월 후 매니저와 비대면 상담을 진행합니다.
           </p>
 
@@ -111,7 +111,7 @@ function Consulting(){
 
           <p className='consulting-text' data-aos="fade-up">
             <p className='consulting-step'>STEP 03</p>
-            <img src='/img/date.png' alt='Head Icon' className='consulting-icon' /><br/>
+            <img src='/img/date.png' alt='Icon' className='consulting-icon' /><br/>
             컨설턴트와 일정을 다시 조율합니다.
           </p>
 
@@ -123,7 +123,7 @@ function Consulting(){
 
           <p className='consulting-text' data-aos="fade-up">
             <p className='consulting-step'>STEP 04</p>
-            <img src='/img/contact.png' alt='Head Icon' className='consulting-icon' /><br/>
+            <img src='/img/contact.png' alt='Icon' className='consulting-icon' /><br/>
             약속된 일정에 컨설턴트가 컨설팅을 진행합니다.
           </p>
 
@@ -135,7 +135,7 @@ function Consulting(){
 
           <p className='consulting-text' data-aos="fade-up">
             <p className='consulting-step'>STEP 05</p>
-            <img src='/img/head.png' alt='Head Icon' className='consulting-icon' /><br/>
+            <img src='/img/head.png' alt='Icon' className='consulting-icon' /><br/>
             3개월 후 매니저와 비대면 상담을 진행합니다.
           </p>
 
@@ -147,7 +147,7 @@ function Consulting(){
 
           <p className='consulting-text' data-aos="fade-up">
             <p className='consulting-step'>STEP 06</p>
-            <img src='/img/date.png' alt='Head Icon' className='consulting-icon' /><br/>
+            <img src='/img/date.png' alt='Icon' className='consulting-icon' /><br/>
             컨설턴트와 일정을 다시 조율합니다.
           </p>
 
@@ -159,12 +159,12 @@ function Consulting(){
 
           <p className='consulting-text' id='last-size' data-aos="fade-up">
             <p className='consulting-step'>STEP 07</p>
-            <img src='/img/contact.png' alt='Head Icon' className='consulting-icon' /><br/>
+            <img src='/img/contact.png' alt='Icon' className='consulting-icon' /><br/>
             약속된 일정에 컨설턴트가 컨설팅을 진행합니다.
           </p>
           <br/><br/>
 
-          <Link to={'/'}><button className='consulting-butt' data-aos="fade-up">상담신청</button></Link>
+          <Link to={'/request'}><button className='consulting-butt' data-aos="fade-up">상담신청</button></Link>
         </div>
       </div>
     </main>

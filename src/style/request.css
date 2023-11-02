@@ -1,0 +1,98 @@
+#request-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 100px 20px;
+}
+
+#request-box a {
+  padding: 0;
+}
+.request-logo{
+  height: 55px;
+  width: 55px;
+  margin-top: 20px;
+}
+
+.request-cotain{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: rgba(34, 34, 34, 0.19) 0px 0px 6px 0px;
+}
+
+.request-check{
+  height: 10px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.request-text{
+  font-size: 12px;
+  font-weight: 600;
+  margin: 30px 10px;
+}
+
+.request-title{
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: #6cdc2d;
+}
+
+.request-title1{
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: #ffeb3b;
+}
+
+.request-title2{
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: #0291f7;
+}
+
+#request-call{
+  border: 2px solid #6cdc2d;
+}
+
+#request-kakao{
+  border: 2px solid #ffeb3b;
+}
+
+#request-email{
+  border: 2px solid #0291f7;
+}
+
+@media screen and (max-width: 1020px) {
+  #request-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 100px 20px;
+  }
+
+  .request-cotain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: rgba(34, 34, 34, 0.19) 0px 0px 6px 0px;
+    margin-bottom: 100px;
+  }
+}

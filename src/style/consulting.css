@@ -21,13 +21,13 @@
   margin-top: 25px;
   text-align: center;
   color: #000;
-  font-size: 42px;
-  font-weight: 600;
+  font-size: 32px;
+  font-weight: 800;
 }
 
 .consulting-price{
-  font-size: 44px;
-  font-weight: 700;
+  font-size: 34px;
+  font-weight: 800;
   color: #000;
   text-align: center;
   margin-bottom: 90px;
@@ -36,7 +36,7 @@
 .consulting-text{
   text-align: center;
   color: black;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -45,26 +45,26 @@
   margin-top: 15px;
   margin-bottom: 60px;
   color: #0061E0;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 600;
 }
 
 .consulting-step{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   color: #0061e0;
 }
 
 .consulting-butt{
   width: 200px;
-  height: 50px;
+  height: 40px;
   border: 0;
   border-radius: 999px;
   display: block;
   margin: 0 auto;
   background-color: #0061E0;
   color: #fff;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   margin-bottom: 100px;
 }
@@ -90,84 +90,6 @@
   font-size: 18px;
   margin-left: 5px;
 }
-
-
-@media screen and (max-width: 1440px) {
-  .consulting-title{
-    margin-top: 25px;
-    text-align: center;
-    color: #000;
-    font-size: 32px;
-    font-weight: 800;
-  }
-  
-  .consulting-price{
-    font-size: 34px;
-    font-weight: 800;
-    color: #000;
-    text-align: center;
-    margin-bottom: 90px;
-  }
-  
-  .consulting-text{
-    text-align: center;
-    color: black;
-    font-size: 14px;
-    font-weight: 600;
-  }
-  
-  .consulting-title-text{
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 60px;
-    color: #0061E0;
-    font-size: 12px;
-    font-weight: 600;
-  }
-  
-  .consulting-step{
-    font-size: 18px;
-    font-weight: 700;
-    color: #0061e0;
-  }
-  
-  .consulting-butt{
-    width: 200px;
-    height: 40px;
-    border: 0;
-    border-radius: 999px;
-    display: block;
-    margin: 0 auto;
-    background-color: #0061E0;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 100px;
-  }
-  
-  .consulting-icon{
-    width: auto;
-    height: 43px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-  
-  .consulting-icon-1{
-    width: auto;
-    height: 13px;
-    margin: 0 auto;
-  }
-  
-  #last-size{
-    margin-bottom: 30px;
-  }
-  
-  .consulting-strong{
-    font-size: 18px;
-    margin-left: 5px;
-  }
-}
-
 
 @media screen and (max-width: 720px) {
 

@@ -11,6 +11,12 @@ function Nav() {
     setMenuOpen(false);
   };
 
+  const styles = {
+    bmMenuWrap: {
+      width: '210px'
+    }
+  };
+
   return (
       <header>
         <nav id='nav'>
@@ -35,7 +41,7 @@ function Nav() {
               <Link to={'/consulting'}>컨설팅 안내</Link>
             </li>
             <li>
-              <Link to={'/'}>상담신청</Link>
+              <Link to={'/request'}>상담신청</Link>
             </li>
             <li>
               <Link to={'/'}>문의</Link>
@@ -50,7 +56,7 @@ function Nav() {
             <Link to={'/'} style={{ padding: 0 }}>
               <img src="/img/logo.png" id="box-logo" alt="로고" />
             </Link>
-            <Menu isOpen={menuOpen} onStateChange={({ isOpen }) => setMenuOpen(isOpen)}>
+            <Menu isOpen={menuOpen} onStateChange={({ isOpen }) => setMenuOpen(isOpen)} styles={styles}>
               <div className="menu-container">
                 <Link to={'/'} style={{ padding: 0 }}  onClick={closeMenu}>
                   <img src="/img/logo.png" id="menu-logo" alt="로고" />
@@ -71,7 +77,7 @@ function Nav() {
                   - 컨설팅 안내
                   <hr></hr>
                 </Link>
-                <Link to={'/'} className="menu-item" onClick={closeMenu}>
+                <Link to={'/request'} className="menu-item" onClick={closeMenu}>
                   - 상담신청
                   <hr></hr>
                 </Link>

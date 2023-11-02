@@ -9,6 +9,7 @@ import About from './about'
 import Consultants from './consultants';
 import Consulting from './consulting';
 import Column from './column';
+import Request from './request';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -23,6 +24,7 @@ root.render(
         <Route path='/consultants/:consultantName' element={<Consultants/>} />
         <Route path='/consulting' element={<Consulting />} />
         <Route path='/column' element={<Column />} />
+        <Route path='/request' element={<Request />} />
       </Routes>
       <Footer />
     </BrowserRouter>

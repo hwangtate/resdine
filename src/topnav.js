@@ -40,6 +40,14 @@ function Topnav() {
       </>
       );
     backgroundId = 'background6';
+  } else if (currentPath.startsWith('/request')) {
+    title = 'Consult';
+    subtitle = (
+      <>
+        레스다인은 무료 상담을 제공하고 있습니다.
+      </>
+      );
+    backgroundId = 'background7';
   } 
 
   return(
