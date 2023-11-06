@@ -16,7 +16,7 @@ function Request(){
   return(
     <main>
       <Topnav/>
-      <div id='request-box' data-aos="fade-up">
+      <div id='request-box'>
 
       <a href='tel:+01046883504'>
         <div className='request-cotain' id='request-call'>

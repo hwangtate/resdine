@@ -10,6 +10,7 @@ import Consultants from './consultants';
 import Consulting from './consulting';
 import Column from './column';
 import Request from './request';
+import Inquiry from './inquiry';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -25,6 +26,7 @@ root.render(
         <Route path='/consulting' element={<Consulting />} />
         <Route path='/column' element={<Column />} />
         <Route path='/request' element={<Request />} />
+        <Route path='/inquiry' element={<Inquiry />} />
       </Routes>
       <Footer />
     </BrowserRouter>

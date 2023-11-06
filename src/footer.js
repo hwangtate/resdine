@@ -1,6 +1,8 @@
-import './style/footer.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './style/footer.css';
 
-function Footer (){
+function Footer() {
   return (
     <footer>
       <p><img src='/img/logo1.png' id="footerlogo" alt="푸터 로고" /></p>
@@ -11,10 +13,10 @@ function Footer (){
         Copyright 2023. RESDINE all rights reserved.
       </p>
       <p id="footertext">
-        <a href="#" className="fa">레스다인 소개</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-        <a href="#" className="fa">컨설팅 신청</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-        <a href="#" className="fa">문의하기</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-        <a href="#" className="fa">개인정보보호정책</a>
+        <Link to="/about" className="fa">레스다인</Link>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <Link to="/inquiry" className="fa">문의하기</Link>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <Link to="/inquiry" className="fa">환불정책</Link>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <Link to="/" className="fa">개인정보보호정책</Link>
       </p>
     </footer>
   );

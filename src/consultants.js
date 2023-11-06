@@ -53,7 +53,9 @@ function Consultants() {
   return(
     <main>
       <Topnav/>
-
+      <h3 id='consult-text-ad'>
+        현재 컨설턴트를 모집 중입니다.
+      </h3>
       <div id='consult-nav'>
         <Link to={'/consultants/ka'} className={getLinkClassName('ka')} onClick={handleLinkClick}>카리나 컨설턴트</Link>
         <Link to={'/consultants/jang'} className={getLinkClassName('jang')} onClick={handleLinkClick}>장원영 컨설턴트</Link>

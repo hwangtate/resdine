@@ -48,7 +48,16 @@ function Topnav() {
       </>
       );
     backgroundId = 'background7';
-  } 
+  }else if (currentPath.startsWith('/inquiry')) {
+    title = 'FAQ & 문의';
+    subtitle = (
+      <>
+        언제든지 편하게 문의해주세요.<br/>
+        최대한 빠르게, 그리고 친절하게 답변해드리겠습니다.
+      </>
+      );
+    backgroundId = 'background8'
+  }
 
   return(
     <>

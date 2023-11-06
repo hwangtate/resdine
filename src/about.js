@@ -47,7 +47,7 @@ function About() {
             <br/><br/><br/>
             저희 레스다인의 칼럼만 읽고도 고객님의 가게가 더 나아질 수 있으니 하단의 링크를 통해 읽어보시길 바랍니다.
             <br/><br/><br/>
-            <Link to={'/'} className='abouttext'>[컨설팅 없이 매출 올리기]</Link>
+            <Link to={'/column'} className='abouttext'>[컨설팅 없이 매출 올리기]</Link>
           </div>
           <div data-aos="fade-up">
             <h1 className='strongtext'>왜 레스다인 컨설팅인가?</h1>

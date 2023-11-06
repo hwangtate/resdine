@@ -1,7 +1,13 @@
+#consult-text-ad{
+  margin: 200px 10px;
+  text-align: center;
+}
+
 #consult-contain{
   display: flex;
   flex-direction: column;
   margin-bottom: 500px;
+  display: none;  /*없애야함*/
 }
 
 .consult-contain2{
@@ -57,6 +63,7 @@ hr{
   height: auto;
   margin-top: 50px;
   width: auto;
+  display: none; /*없애야함*/
 }
 
 #consult-nav1{
