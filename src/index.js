@@ -11,6 +11,8 @@ import Consulting from './consulting';
 import Column from './column';
 import Request from './request';
 import Inquiry from './inquiry';
+import Privacy from './privacy';
+import Refund from './refund';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -27,6 +29,8 @@ root.render(
         <Route path='/column' element={<Column />} />
         <Route path='/request' element={<Request />} />
         <Route path='/inquiry' element={<Inquiry />} />
+        <Route path='/privacy' element={<Privacy />} />
+        <Route path='/refund' element={<Refund />} />
       </Routes>
       <Footer />
     </BrowserRouter>

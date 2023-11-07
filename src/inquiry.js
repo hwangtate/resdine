@@ -26,7 +26,7 @@ const faqs = [
     question: 'Q 환불 정책은 어떻게 되나요?',
     answer: 
     <>
-    <Link to={'/request'} className='answer-link'>여기를</Link> 통해 환불정책에 대해 알아보실 수 있습니다.
+    <Link to={'/refund'} className='answer-link'>여기를</Link> 통해 환불정책에 대해 알아보실 수 있습니다.
     </>
   },
   {

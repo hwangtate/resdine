@@ -15,8 +15,8 @@ function Footer() {
       <p id="footertext">
         <Link to="/about" className="fa">레스다인</Link>&nbsp;&nbsp;|&nbsp;&nbsp;
         <Link to="/inquiry" className="fa">문의하기</Link>&nbsp;&nbsp;|&nbsp;&nbsp;
-        <Link to="/inquiry" className="fa">환불정책</Link>&nbsp;&nbsp;|&nbsp;&nbsp;
-        <Link to="/" className="fa">개인정보보호정책</Link>
+        <Link to="/refund" className="fa">환불정책</Link>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <Link to="/privacy" className="fa">개인정보보호정책</Link>
       </p>
     </footer>
   );
