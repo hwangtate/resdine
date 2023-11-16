@@ -9,7 +9,6 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 500px;
-  display: none;  /*없애야함*/
 }
 
 .consult-contain2{
@@ -65,7 +64,6 @@ hr{
   height: auto;
   margin-top: 50px;
   width: auto;
-  display: none; /*없애야함*/
 }
 
 #consult-nav1{
