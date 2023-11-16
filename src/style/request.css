@@ -5,6 +5,10 @@
   margin: 100px 20px;
 }
 
+.request-cotain:hover {
+  transform: scale(1.1);
+}
+
 #request-box a {
   padding: 0;
 }
@@ -23,6 +27,7 @@
   background-color: #fff;
   border-radius: 15px;
   box-shadow: rgba(34, 34, 34, 0.19) 0px 0px 6px 0px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .request-check{
@@ -94,5 +99,9 @@
     border-radius: 15px;
     box-shadow: rgba(34, 34, 34, 0.19) 0px 0px 6px 0px;
     margin-bottom: 100px;
+  }
+
+  .request-cotain:hover {
+    transform: scale(1.05);
   }
 }

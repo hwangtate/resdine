@@ -26,7 +26,7 @@ footer{
 }
 
 #footertext a {
-  text-decoration: none; /* 밑줄 제거 */
+  text-decoration: none !important;/* 밑줄 제거 */
 }
 
 .fa {
