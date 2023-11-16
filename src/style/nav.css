@@ -20,12 +20,17 @@ body{
 nav {
   margin-bottom: 0;
   height: 80px;
+  width: 100%;
   background-color: #fff; /* 배경색 */
   display: flex; /* 가로 배치 */
   align-items: center; /* 세로 중앙 정렬 */
   font-size: 16px;
   font-weight: 500;
   transition: all 0.3s ease;
+  position: fixed;
+  top: 0;
+  z-index: 1200;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); /* 그림자 추가 */
 }
 
 /* ul 스타일링 */
@@ -120,6 +125,7 @@ li ul {
 
   nav{
     display: block;
+    width: 210px
   }
   
   .menu-container{
@@ -165,6 +171,10 @@ li ul {
     width: 100%; /* 또는 원하는 너비 */
     height: 50px;
     background: #fff; /* 또는 원하는 배경색 */
+    position: fixed;
+    top: 0;
+    z-index: 1200;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); /* 그림자 추가 */
   }
   
   

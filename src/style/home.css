@@ -3,6 +3,8 @@
   box-sizing: border-box;
   width: 100%;
   height: 600px;
+  margin-top: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* 그림자 추가 */
   background-image: url("../../public/img/background3.png");
   background-size: cover;
   background-position: center top;
@@ -141,6 +143,7 @@
 @media screen and (max-width: 1000px) {
   #main1{
     margin-bottom: 800px;
+    margin-top: 50px;
   }
 
   .contain1 {
@@ -201,6 +204,8 @@
   
   .icon{
     margin-top: 35px;
+    width: 32px;
+    height: 32px;
   }
 
   .contain2 {
