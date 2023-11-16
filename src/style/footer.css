@@ -16,6 +16,7 @@ footer{
 }
 
 #footertext{
+  text-decoration: none;
   font-size: 12px;
   color: #333;
   opacity: 0.5;
@@ -33,11 +34,6 @@ footer{
   padding: 0;
   margin: 0;
   text-decoration: none; /* 기본 밑줄 제거 */
-}
-
-.fa:hover{
-  text-decoration: underline;
-  text-decoration-color: rgba(51, 51, 51, 0.5);
 }
 
 @media screen and (max-width: 1440px) {
