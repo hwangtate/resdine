@@ -18,14 +18,14 @@ function Request(){
       <Topnav/>
       <div id='request-box'>
 
-      <a href='tel:+01046883504'>
+      <a href='tel:+01074963504'>
         <div className='request-cotain' id='request-call'>
           <img src='/img/call-icon.png' className='request-logo' alt="로고" />
           <div className='request-contain2'>
             <h2 className='request-title'>전화상담</h2>
             <p className='request-text'>
             <img src='/img/check-gre.png' className='request-check' alt="로고" />
-             24시간 전문 상담 서비스를 이용하실 수 있습니다.
+             전화 상담 시간 : 09:00 ~ 22:00 
             </p>
             <p className='request-text'>
             <img src='/img/check-gre.png' className='request-check' alt="로고" />
@@ -33,13 +33,13 @@ function Request(){
             </p>
             <p className='request-text'>
             <img src='/img/check-gre.png' className='request-check' alt="로고" />
-              레스다인 컨설팅 황태영 대표 : 010-4688-3504
+              레스다인 컨설팅 황태영 대표 : 010-7496-3504
             </p>
           </div>
         </div>
         </a>
 
-        <a href='tel:+01046883504'>
+        <a href='https://pf.kakao.com/_xcTBbG' target="_blank" rel="noopener noreferrer">
         <div className='request-cotain' id='request-kakao'>
           <img src='/img/kakao-icon.png' className='request-logo' alt="로고" />
           <div className='request-contain2'>
@@ -54,7 +54,7 @@ function Request(){
             </p>
             <p className='request-text'>
               <img src='/img/check-yell.png' className='request-check' alt="로고" />
-                레스다인 컨설팅 황태영 대표 : 
+                카카오톡 채널 검색 : 레스다인
             </p>
           </div>
         </div>
