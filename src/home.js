@@ -41,10 +41,10 @@ function Home() {
           <p className="text">컨설턴트 커리어 & 소개 </p>
           <p className="subtext">먼저 성공한 사업가에게<br />컨설팅을 받으세요.</p>
         </Link>
-        <Link to={'/consulting'} className="contain2">
+        <Link to={'/about'} className="contain2">
           <img src="/img/Analyze.png" className="icon" alt="아이콘 3" />
           <p className="text">레스다인 컨설팅</p>
-          <p className="subtext">성공한 사업가의<br />노하우와 비밀을 받아가세요.</p>
+          <p className="subtext">왜 우리 레스다인 컨설팅을<br />선택해야 하는지 알 수 있습니다.</p>
         </Link>
       </div>
     </main>
